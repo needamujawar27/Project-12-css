@@ -1,0 +1,46 @@
+.main{
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+    flex-direction: row-reverse;
+    
+
+    
+}
+.main div{
+    border: 3px solid navy;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin: 5px;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.pickup{
+    background-color: orange;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left: 550px;
+    top: 330px;
+    opacity: 0.3;
+
+}
